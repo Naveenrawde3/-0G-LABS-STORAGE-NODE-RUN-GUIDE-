@@ -3,7 +3,7 @@
 
 # Device/System Requirements 💻
 
-![image]https://github.com/Naveenrawde3/-0G-LABS-STORAGE-NODE-RUN-GUIDE-/commit/4ce53f4313147dad19d1984e0fc4d379a6458ebd
+![image]
 
 # Pre-Requirements 🛠
 
