@@ -1,6 +1,26 @@
 # 😱😱 0G-LABS-STORAGE-NODE-RUN-GUIDE
 
 
+## Node Management**
+  
+## 🔄 Inter Gensyn Screen :
+
+```bash
+screen -r gensyn
+```
+
+## Check screen sessions :
+
+```bash
+screen -ls
+```
+
+## Reattach to screen session :
+
+```bash
+screen -r
+```
+
 # Device/System Requirements 💻
 
 ![image]
