@@ -6,7 +6,7 @@
 ## 🔄 Inter Gensyn Screen :
 
 ```bash
-screen -r gensyn
+screen -r og
 ```
 
 ## Check screen sessions :
@@ -74,6 +74,12 @@ check version
 
 ```
 go version
+```
+
+## 🖥 Creat Screen
+
+```bash
+screen -S og
 ```
 
 
