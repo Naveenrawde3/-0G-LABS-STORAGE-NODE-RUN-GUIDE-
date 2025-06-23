@@ -23,8 +23,6 @@ screen -r
 
 # Device/System Requirements 💻
 
-![image]
-
 # Pre-Requirements 🛠
 
 * Add 0G-Galileo-Testnet chain from here: https://docs.0g.ai/run-a-node/testnet-information
@@ -118,9 +116,6 @@ curl -o $HOME/0g-storage-node/run/config.toml https://raw.githubusercontent.com/
 nano $HOME/0g-storage-node/run/config.toml
 ```
 
-![image] 
-
-
 # If u want to change RPC then follow this:
 
 1. get rpc from here - https://www.astrostake.xyz/0g-status
@@ -208,9 +203,11 @@ rm -rf $HOME/0g-storage-node
 
 # Explorer & Useful Webs
 
-* Explorer- (View your txs - Paste Your Address): https://chainscan-galileo.bangcode.id/ OR https://chainscan-galileo.0g.ai/
+* Explorer- (View your txs - Paste Your Address):
+*  https://chainscan-galileo.bangcode.id/
+*   OR
+*   https://chainscan-galileo.0g.ai/
 
 * View Miner Details- (Add your wallet address at the end of the link): https://storagescan-galileo.0g.ai/miner/
-
 
 👉 Join TG for more Updates: https://t.me/ntekearning2
