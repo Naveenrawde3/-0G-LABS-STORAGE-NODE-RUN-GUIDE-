@@ -26,7 +26,7 @@ screen -r
 
 # Pre-Requirements 🛠
 
-* Add 0G-Galileo-Testnet chain from here: https://docs.0g.ai/run-a-node/testnet-information
+* Add 0G-Testnet-RPC : https://chainscan-galileo.0g.ai/
 
 * Take faucet: https://faucet.0g.ai/
 
@@ -123,9 +123,6 @@ nano $HOME/0g-storage-node/run/config.toml
 
 2. Chooose any rpc and edit in the `config.toml` file
 
-!imagee]
-
-
 # Create a Systemd Service File
 
 ```
@@ -171,9 +168,6 @@ sudo systemctl start zgs
 sudo systemctl status zgs
 ```
 
-![Screenshot 2025-05-27 190436] 
-
-
 * check Full Logs
 
 ```
@@ -186,9 +180,6 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
  while true; do     response=$(curl -s -X POST http://localhost:5678 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"zgs_getStatus","params":[],"id":1}');     logSyncHeight=$(echo $response | jq '.result.logSyncHeight');     connectedPeers=$(echo $response | jq '.result.connectedPeers');     echo -e "logSyncHeight: \033[32m$logSyncHeight\033[0m, connectedPeers: \033[34m$connectedPeers\033[0m";     sleep 5; done
 ```
 
-![Screenshot 2025-05-28 155703]
-
-
 # Stop & Delete the service
 
 ```
@@ -200,7 +191,6 @@ sudo systemctl disable zgs
 sudo rm /etc/systemd/system/zgs.service
 rm -rf $HOME/0g-storage-node
 ```
-
 
 # Explorer & Useful Webs
 
