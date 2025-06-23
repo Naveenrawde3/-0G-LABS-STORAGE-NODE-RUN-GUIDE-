@@ -22,6 +22,7 @@ screen -r
 ```
 
 # Device/System Requirements 💻
+https://github.com/Naveenrawde3/-0G-LABS-STORAGE-NODE-RUN-GUIDE-/blob/main/photo_2025-06-23_19-25-27.jpg
 
 # Pre-Requirements 🛠
 
