@@ -1,7 +1,7 @@
-# 😱😱 0G-LABS-STORAGE-NODE-RUN-GUIDE
+# 😱😱 0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-NTEK
 
 
-## Node Management**
+## Node Management
   
 ## 🔄 Inter Gensyn Screen :
 
