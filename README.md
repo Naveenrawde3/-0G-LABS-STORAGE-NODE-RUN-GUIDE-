@@ -219,15 +219,7 @@ rm -rf $HOME/0g-storage-node
 ```bash
 sudo systemctl status zgs
 ```
-The command `df -h` is used in Linux to **display disk space usage** of all mounted file systems in a **human-readable format** (i.e., in GBs, MBs).
 
----
-
-### 📘 GitHub README Snippet
-
-You can include it in a **README.md** like this:
-
----
 
 ## 💽 Check Disk Space
 
